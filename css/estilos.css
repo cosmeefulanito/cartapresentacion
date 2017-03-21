@@ -2,7 +2,6 @@ nav li a{
 	
 	font-family: "Sans Serif";
 
-
 }
 
 
@@ -34,10 +33,10 @@ nav li a{
 .seccion-skills{
 	background-color: rgb(107, 188, 243);
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-bottom: 50px;
 	color: white;
-	height: 600px;
+	height: 800px;
 }
 
 .seccion-contacto{
@@ -96,17 +95,15 @@ nav li a{
 
 .fotito{
 	height: 120px;
-	width: 120px;
-	border: 2px solid grey;
+	width: 120px;	
 	padding: 6px;
-
+}
+.fotito-elef{
+	width: 350px;
+	
 }
 
-div .perfil{
 
-	padding-left: 220px;
-
-}
 
 .page-header{
 	text-align: center;
@@ -117,7 +114,13 @@ div .perfil{
 
 .principal{
 	font-size: 50px;
-	background-color: rgba(122,23,36,.3);
+	background-color: rgba(122,23,36,.5);
 	border: 2px none;
     border-radius: 40px 40px 0px 0px;
+}
+
+.foto{
+
+	padding-right: 160px;
+
 }
