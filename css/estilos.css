@@ -1,0 +1,123 @@
+nav li a{
+	
+	font-family: "Sans Serif";
+
+
+}
+
+
+.seccion-zero{
+	background-image: url('../img/833.jpg');
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	height: 400px;
+	background-color: rgba(195,100,254,.2);
+	text-align: center;
+	font-size: large;
+	color: black;	
+}
+
+.seccion-quiensoy{
+	padding-top: 50px;
+	padding-bottom: 80px;
+	background-color: rgb(38, 47, 64);
+	color: white;
+	text-align: justify;
+}
+
+.seccion-antecedentes{
+	background-color: rgb(18, 92, 167);
+	color: black;
+}
+
+.seccion-skills{
+	background-color: rgb(107, 188, 243);
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	color: white;
+	height: 600px;
+}
+
+.seccion-contacto{
+	background-color: rgb(197, 145, 88);
+	color: white;
+	height: 400px;
+	padding-top:80px;
+}
+
+
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
+.cssanimations .cd-timeline-img.is-hidden {
+  visibility: hidden;
+}
+.cssanimations .cd-timeline-img.bounce-in {
+  visibility: visible;
+  animation: cd-bounce-1 0.6s;
+}
+ 
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+ 
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+ 
+  100% {
+    transform: scale(1);
+  }
+}
+
+.titulos{
+	padding-bottom: 50px;
+}
+
+.fotito{
+	height: 120px;
+	width: 120px;
+	border: 2px solid grey;
+	padding: 6px;
+
+}
+
+div .perfil{
+
+	padding-left: 220px;
+
+}
+
+.page-header{
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+.principal{
+	font-size: 50px;
+	background-color: rgba(122,23,36,.3);
+	border: 2px none;
+    border-radius: 40px 40px 0px 0px;
+}
